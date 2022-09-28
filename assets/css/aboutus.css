@@ -1,0 +1,61 @@
+/* *********************************AboutUs Page css********************************* */
+/* ===========Aboutus Icon css================= */
+
+.aboutUsIcon i{
+ font-size: 56px;
+}
+
+.iconCard:hover{
+    transform: scale(1.04)
+}
+
+/* button.owl-prev i,button.owl-next i {
+    font-size: 48px;
+}
+button.owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 36px;
+}
+
+button.owl-next{
+    position: absolute;
+    right: 0px;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 36px;
+} */
+
+#testimonials .owl-theme .owl-nav{
+    display: none;
+}
+@media all and (min-width:768px){
+    #testimonials .owl-theme .owl-nav{
+        display:block;
+        /* margin-top: 10px;
+        position: absolute;
+        top: 15px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%); */
+    }
+   #testimonials button.owl-prev i, #testimonials button.owl-next i {
+        font-size: 60px;
+    }
+    #testimonials button.owl-prev{
+        position: absolute;
+        left: 0px;
+        top: 30%;
+        transform: translateY(-50%);
+    }
+    #testimonials button.owl-next{
+        position: absolute;
+        right: 0px;
+        top: 30%;
+        transform: translateY(-50%);
+
+    }
+}

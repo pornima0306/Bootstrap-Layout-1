@@ -1,0 +1,21 @@
+.tickMark{
+    font-size: 40px;
+}
+.plans .card{
+    transition: all .4s ease-in-out;
+}
+
+.plans .card:hover{
+        transform:translateY(-20px) scale(1.02)
+}
+
+
+/* ===============FAQ CSS============= */
+.faq .card{
+    background-color: #444;
+}
+
+.faq .card-link:link, .faq .card-link:visited {
+    background-color: #444;
+    color: #fff;
+}
